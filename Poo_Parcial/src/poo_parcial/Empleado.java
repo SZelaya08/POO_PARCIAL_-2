@@ -8,6 +8,32 @@ package poo_parcial;
  *
  * @author szelaya
  */
-class Empleado {
+public abstract class Empleado {
+    protected int id;
+    protected String nombre;
+    protected int edad;
+    protected float salario;
+    public Empleado(int id, String nombre, int edad, float salario){
+        this.id=id;
+        this.nombre=nombre;
+        this.edad=edad;
+        this.salario=salario;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public float getSalario() {
+        return salario;
+    }
     
 }

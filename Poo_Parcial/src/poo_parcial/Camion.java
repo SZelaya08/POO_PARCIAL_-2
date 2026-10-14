@@ -8,6 +8,6 @@ package poo_parcial;
  *
  * @author szelaya
  */
-class Camion {
+ class Camion {
     
 }
