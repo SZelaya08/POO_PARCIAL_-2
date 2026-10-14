@@ -12,8 +12,8 @@ public abstract class Empleado {
     protected int id;
     protected String nombre;
     protected int edad;
-    protected float salario;
-    public Empleado(int id, String nombre, int edad, float salario){
+    protected double salario;
+    public Empleado(int id, String nombre, int edad, double salario){
         this.id=id;
         this.nombre=nombre;
         this.edad=edad;
@@ -32,7 +32,7 @@ public abstract class Empleado {
         return edad;
     }
 
-    public float getSalario() {
+    public double getSalario() {
         return salario;
     }
     

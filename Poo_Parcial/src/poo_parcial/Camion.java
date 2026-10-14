@@ -4,10 +4,41 @@
  */
 package poo_parcial;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author szelaya
  */
  class Camion {
+    private int id;
+    private String placa;
+    private String marca;
+    private ArrayList<Turno> turnos;
+
+    public Camion(int id, String placa, String marca) {
+        this.id = id;
+        this.placa = placa;
+        this.marca = marca;
+        this.turnos = new ArrayList<>();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public ArrayList<Turno> getTurnos() {
+        return turnos;
+    }
+    
+    
     
 }
