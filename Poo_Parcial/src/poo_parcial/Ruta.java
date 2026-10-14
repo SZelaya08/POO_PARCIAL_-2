@@ -4,10 +4,12 @@
  */
 package poo_parcial;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author szelaya
  */
 class Ruta {
-    
+    private ArrayList<PuntoGeografico> puntosGeograficos;
 }
