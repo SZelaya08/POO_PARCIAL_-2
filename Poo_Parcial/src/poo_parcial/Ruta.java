@@ -5,12 +5,16 @@
 package poo_parcial;
 
 import java.util.ArrayList;
+
 import java.util.List;
+
+
 
 /**
  *
  * @author szelaya
  */
+
 public class Ruta {
     private List<PuntoGeografico>puntosGeograficos;
     public Ruta(List<PuntoGeografico>puntosGeograficos){
@@ -19,4 +23,5 @@ public class Ruta {
     public List<PuntoGeografico>getPuntosGeograficos(){
         return puntosGeograficos;
     }
+
 }
