@@ -6,10 +6,17 @@ package poo_parcial;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author szelaya
- */
-class Ruta {
-    
+import java.util.List;
+
+
+public class Ruta {
+    private List<PuntoGeografico> puntosGeograficos;
+    public Ruta(List<PuntoGeografico>puntosGeograficos){
+        this.puntosGeograficos=new ArrayList<>(puntosGeograficos);
+    }
+    public List<PuntoGeografico>getPuntosGeograficos(){
+        return puntosGeograficos;
+    }
+
 }
+

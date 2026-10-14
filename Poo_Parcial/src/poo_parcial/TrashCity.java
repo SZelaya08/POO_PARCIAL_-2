@@ -88,7 +88,6 @@ public class TrashCity {
     }
 
     public void showMinMaxTurnoPorResiduo() {
-        System.out.println("------------- Resultados -------------\n");
         String[] categorias = {"Vidrio", "Papel", "Plastico", "Metal", "Residuos Organicos"};
         
         for (int i = 0; i < categorias.length; i++) {
@@ -172,7 +171,7 @@ public class TrashCity {
         if (maxRuta != null) {
             System.out.println("Los puntos de la ruta con mayor cantidad de metal recogido son:");
             for (PuntoGeografico p : maxRuta.getPuntosGeograficos()) {
-                System.out.println("- " + p.toString());
+                System.out.println("- (" + p.getLatitud() + " , " + p.getLongitud()+ ")");
             }
             // Redondear a 3 decimales para coincidir con la salida esperada
             System.out.println("La cantidad de metal total en la ruta es: " + Math.round(maxMetal * 1000.0) / 1000.0);

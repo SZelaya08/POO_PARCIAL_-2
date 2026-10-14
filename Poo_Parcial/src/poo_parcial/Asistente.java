@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class Asistente extends Empleado {
     private ArrayList<Turno> turnos;
     
-    public Asistente(int id, String nombre, int edad, float salario) {
+    public Asistente(int id, String nombre, int edad, double salario) {
         super(id, nombre, edad, salario);
         turnos = new ArrayList<>();
     }

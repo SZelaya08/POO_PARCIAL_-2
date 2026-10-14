@@ -16,7 +16,7 @@ import java.util.List;
 public class Conductor extends Empleado {
     private ArrayList<Turno> turnos;
     
-    public Conductor(int id, String nombre, int edad, float salario) {
+    public Conductor(int id, String nombre, int edad, double salario) {
         super(id, nombre, edad, salario);
         turnos = new ArrayList<>();
     }

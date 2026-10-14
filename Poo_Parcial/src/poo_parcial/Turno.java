@@ -28,10 +28,10 @@ class Turno {
         this.asistente2 = asistente;
         this.ruta = ruta;
         
-        this.camion.addTurno(this);
-        this.conductor.addTurno(this);
-        this.asistente1.addTurno(this);
-        this.asistente2.addTurno(this);
+        //this.camion.addTurno(this);
+        //this.conductor.addTurno(this);
+        //this.asistente1.addTurno(this);
+        //this.asistente2.addTurno(this);
     }
     public void ejecutar(LocalDateTime fechaInicio, int duracionHoras){
         this.fechaInicio = fechaInicio;
